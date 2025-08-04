@@ -1,49 +1,32 @@
-# StayFinder - Full Stack Web-App
+# StayFinder - Full Stack Web-App 🌍
 
-🌍 StayFinder
-StayFinder W is a fully responsive, full-stack web application for booking accommodations, inspired by platforms like Airbnb. Built with the MERN stack, it provides seamless user experiences, authentication, property listing management, and secure booking flows.
+StayFinder is a responsive, full-stack web application for booking accommodations — similar to platforms like Airbnb. It allows users to register, browse property listings, make bookings, and hosts to manage their listings.
 
+---
 
-🚀 Features
-🔐 JWT Authentication – Secure login & registration with role-based access (users & hosts).
+## 🚀 Features
 
-🏡 Property Listings – Full CRUD capabilities for hosts to add, edit, delete properties.
+- 🔐 JWT-based authentication (Login / Register)
+- 🏡 Host dashboard with full CRUD for property listings
+- 📅 Secure and intuitive booking flow
+- 🎨 Modern UI with responsive design (Tailwind CSS)
+- 🧾 MongoDB for data storage (users, listings, bookings)
+- 🌐 RESTful API with Express.js
+- ⚙️ Deployed with Vercel (Frontend) & Render (Backend)
 
-📅 Booking System – Real-time booking flow with date-based availability.
+---
 
-🎨 Responsive UI – Built with Tailwind CSS & React for clean and mobile-friendly design.
+## 🛠 Tech Stack
 
-🌐 RESTful API – Backend APIs with Express.js handling users, properties, and bookings.
+| Layer       | Technology                      |
+|-------------|----------------------------------|
+| Frontend    | React.js, Tailwind CSS           |
+| Backend     | Node.js, Express.js              |
+| Database    | MongoDB with Mongoose            |
+| Auth        | JWT (JSON Web Tokens)            |
+| Deployment  | Vercel (Frontend), Render (API)  |
 
-🧾 MongoDB Database – Secure, scalable NoSQL storage for users, listings, and bookings.
+---
 
-🔒 Protected Routes – Frontend & backend access control using JWT tokens.
-
-☁️ Deployed – Frontend on Vercel, backend on Render for a live production-ready experience.
-
-🛠 Tech Stack
-Frontend
-
-React.js (with hooks & router)
-
-Tailwind CSS
-
-Axios
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB (with Mongoose)
-
-JWT (JSON Web Token)
-
-Deployment
-
-Frontend: Vercel
-
-Backend: Render
 
 
