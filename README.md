@@ -1,12 +1,32 @@
-# React + Vite
+# StayFinder - Full Stack Web-App 🌍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+StayFinder is a responsive, full-stack web application for booking accommodations — similar to platforms like Airbnb. It allows users to register, browse property listings, make bookings, and hosts to manage their listings.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 JWT-based authentication (Login / Register)
+- 🏡 Host dashboard with full CRUD for property listings
+- 📅 Secure and intuitive booking flow
+- 🎨 Modern UI with responsive design (Tailwind CSS)
+- 🧾 MongoDB for data storage (users, listings, bookings)
+- 🌐 RESTful API with Express.js
+- ⚙️ Deployed with Vercel (Frontend) & Render (Backend)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+| Layer       | Technology                      |
+|-------------|----------------------------------|
+| Frontend    | React.js, Tailwind CSS           |
+| Backend     | Node.js, Express.js              |
+| Database    | MongoDB with Mongoose            |
+| Auth        | JWT (JSON Web Tokens)            |
+| Deployment  | Vercel (Frontend), Render (API)  |
+
+---
+
+
+
