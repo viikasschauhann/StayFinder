@@ -1,14 +1,12 @@
-import { useState } from 'react'
+import React from 'react';
+import Navbar from './components/Home/Navbar';
+import HomePage from './pages/HomePage';
 
-
-function App() {
-  
-
+export default function App() {
   return (
     <>
-      <div className='text-2xl font-bold'>hello stayfinder</div>
+      <Navbar />
+      <HomePage />
     </>
-  )
+  );
 }
-
-export default App
